@@ -1,0 +1,78 @@
+{
+  "editor.suggestSelection": "first",
+  "editor.renderWhitespace": "none",
+  "editor.formatOnPaste": true,
+  "editor.fontFamily": "Menlo, Consolas, DejaVu Sans Mono, monospace",
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.hover.enabled": false,
+  "editor.occurrencesHighlight": false,
+  "editor.wordWrap": "on",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.wordWrapColumn": 300,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "workbench.sideBar.location": "left",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.tree.indent": 14,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    // "terminal.background": "#131212",
+    "terminal.foreground": "#dddad6",
+    "terminal.ansiBlack": "#2E3440",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#88C0D0",
+    "terminal.ansiBrightGreen": "#A3BE8C",
+    "terminal.ansiBrightMagenta": "#B48EAD",
+    "terminal.ansiBrightRed": "#BF616A",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#EBCB8B",
+    "terminal.ansiCyan": "#88C0D0",
+    "terminal.ansiGreen": "#A3BE8C",
+    "terminal.ansiMagenta": "#B48EAD",
+    "terminal.ansiRed": "#BF616A",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#EBCB8B"
+  },
+  // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.cursorBlinking": true,
+  // "terminal.integrated.fontFamily": "Lucida Console",
+  "terminal.integrated.fontWeightBold": "normal",
+  "terminal.integrated.altClickMovesCursor": false,
+  "terminal.integrated.showExitAlert": false, // Elimina el mensaje: The terminal process "C:\Program Files\Git\bin\bash.exe" terminated with exit code: 127.
+  "html.format.indentInnerHtml": true,
+  "html.format.extraLiners": "none",
+  "html.format.wrapLineLength": 300,
+  "[html]": {
+    "editor.matchBrackets": "never"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "timeline.excludeSources": [
+    "git-history"
+  ],
+  "diffEditor.ignoreTrimWhitespace": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "highlight-matching-tag.highlightFromAttributes": false,
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "name": {
+        "underline": "grey"
+      }
+    }
+  },
+  "breadcrumbs.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "cssPeek.supportTags": false,
+}

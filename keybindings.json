@@ -1,0 +1,80 @@
+[
+  {
+    "key": "alt+q",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+    "key": "alt+w",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "alt+e",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "alt+up",
+    "command": "editor.action.insertCursorAbove"
+  },
+  {
+    "key": "alt+down",
+    "command": "editor.action.insertCursorBelow"
+  },
+  {
+    "key": "alt+oem_5", // oem_5 => key pipe '|'
+    "command": "workbench.view.explorer"
+  },
+  {
+    "key": "alt+enter",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+up",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+up",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+up",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  },
+  // {   // Full screen terminal 
+  //     "key": "ctrl+oem_3", // oem_3 => key ñ 
+  //     "command": "workbench.action.toggleMaximizedPanel",
+  //     "when": "!terminalFocus"
+  // },
+  // {
+  //     "key": "ctrl+j",
+  //     "command": "workbench.action.togglePanel"
+  // },
+]
