@@ -68,6 +68,10 @@
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus"
   },
+  {
+    "key": "ctrl+shift+p",
+    "command": "workbench.action.findInFiles",
+  },
   // {   // Full screen terminal 
   //     "key": "ctrl+oem_3", // oem_3 => key ñ 
   //     "command": "workbench.action.toggleMaximizedPanel",
