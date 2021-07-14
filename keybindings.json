@@ -20,7 +20,7 @@
     "command": "editor.action.insertCursorBelow"
   },
   {
-    "key": "alt+oem_5", // oem_5 => key pipe '|'
+    "key": "alt+oem_5", // oem_5 => key: '|'
     "command": "workbench.view.explorer"
   },
   {
@@ -49,6 +49,16 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
+    "key": "ctrl+up",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
     "key": "ctrl+alt+up",
     "command": "editor.action.copyLinesUpAction",
     "when": "editorTextFocus && !editorReadonly"
@@ -59,21 +69,11 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+down",
-    "command": "workbench.action.terminal.focusNext",
-    "when": "terminalFocus"
-  },
-  {
-    "key": "ctrl+up",
-    "command": "workbench.action.terminal.focusPrevious",
-    "when": "terminalFocus"
-  },
-  {
     "key": "ctrl+shift+p",
     "command": "workbench.action.findInFiles",
   },
   // {   // Full screen terminal 
-  //     "key": "ctrl+oem_3", // oem_3 => key ñ 
+  //     "key": "ctrl+oem_3", // oem_3 => key: 'ñ' 
   //     "command": "workbench.action.toggleMaximizedPanel",
   //     "when": "!terminalFocus"
   // },
