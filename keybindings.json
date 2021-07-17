@@ -39,6 +39,10 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
+    "key": "ctrl+oem_3", // oem_3 => key: 'ñ'
+    "command": "workbench.action.togglePanel"
+  },
+  {
     "key": "ctrl+up",
     "command": "editor.action.moveLinesUpAction",
     "when": "editorTextFocus && !editorReadonly"
